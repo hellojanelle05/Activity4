@@ -85,3 +85,16 @@ VALUES
 (8, 'Cleo', 'Cat', 'Sphynx', '2022-02-17', 'Female', 'Pink', 3),
 (9, 'Rex', 'Dog', 'German Shepherd', '2016-08-20', 'Male', 'Black and Tan', 9),
 (10, 'Buddy', 'Dog', 'Labrador', '2018-12-02', 'Male', 'Black', 10);
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+(1, 1, '2025-11-01', 'Annual vaccination'),
+(2, 2, '2025-11-03', 'Routine check-up'),
+(3, 3, '2025-11-05', 'Skin allergy treatment'),
+(4, 4, '2025-11-07', 'Dental cleaning'),
+(5, 5, '2025-11-09', 'Injury examination'),
+(6, 6, '2025-11-11', 'Spay/Neuter consultation'),
+(7, 7, '2025-11-13', 'Digestive issues follow-up'),
+(8, 8, '2025-11-15', 'Fever and lethargy'),
+(9, 9, '2025-11-17', 'Weight management advice'),
+(10, 10, '2025-11-19', 'Vaccination booster');
